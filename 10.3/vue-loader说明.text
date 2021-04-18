@@ -1,0 +1,15 @@
+.vue 单文件就是一个后缀名为.vue的文件, 在webpack 中使用vue-loader 就可以对.vue 格式的文件进行处理
+一个.vue文件一般包含三个部分  <template> <script> <style>
+使用.vue文件需要先安装vue-loader、vue-style-loader 等加载器并做配置， 因为要使用es6与语法
+还需要安装babel 和babel-loader 等加载器， 使用npm 逐个安装 以下依赖
+npm i --save vue
+npm i --save-dev vue-loader
+npm i --save-dev vue-style-loader
+npm i --save-dev vue-template-compiler
+npm i --save-dev vue-hot-reload-api
+npm i --save-dev babel
+npm i --save-dev babel-loader
+npm i --save-dev babel-core
+npm i --save-dev babel-plugin-transform-runtime
+npm i --save-dev babel-preset-es2015
+npm i --save-dev babel-runtime
